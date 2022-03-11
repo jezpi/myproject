@@ -29,6 +29,12 @@ jobs:
       - name: Run a one-line script
         run: pip3 install -r requirements.txt
 
+      - name: Run a one-line script
+        run: id
+
+      - name: Run a one-line script
+        run: flask run
+
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run:  ls
